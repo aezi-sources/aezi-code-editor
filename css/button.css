@@ -1,0 +1,21 @@
+.theme-toggle {
+    background: none;
+    border: 2px solid var(--border-color, #ccc);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}

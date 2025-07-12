@@ -1,0 +1,28 @@
+/* Light Theme Variables */
+:root {
+    --bg-primary: #ffffff;
+    --bg-secondary: rgb(225, 243, 255);
+    --bg-editor: rgb(225, 243, 255);
+    --bg-line-numbers: rgb(225, 243, 255);
+    --bg-textarea: rgb(255, 242, 183);
+    --bg-hover: rgb(210, 235, 255);
+    
+    --text-primary: #333333;
+    --text-secondary: #333333;
+    --text-line-numbers: #333333;
+    
+    --border-light: #333333;
+    --border-medium: #333333;
+    --border-color: #333333;
+    
+    --shadow-light: rgba(51, 51, 51, 0.1);
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+h1 {
+    color: var(--text-primary);
+}

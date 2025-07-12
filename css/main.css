@@ -1,0 +1,29 @@
+/* Fonts */
+@font-face {
+    font-family: 'Intro';
+    src: url(../assets/fonts/intro-font/Intro.otf) format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('themes/light.css');
+@import url('themes/dark.css');
+@import url('button.css');
+
+/* Base Styles */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Karla', sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Headings */
+h1 {
+    font-family: 'Intro', sans-serif;
+    font-weight: 300;
+    font-size: 2.5em;
+    color: var(--text-primary);
+    margin-bottom: 30px;
+}

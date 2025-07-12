@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aezi's Code Editor</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/editor.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="program">
+        <header>
+            <h1>Code Editor</h1>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </header>
+
+        <div class="parent-editor">
+            <section class="editor-container">
+                <div class="editor">
+                    <div class="line-numbers" id="line-numbers-container"></div>
+                    <div class="editor-content">
+                        <textarea id="code-editor" spellcheck="false"></textarea>
+                        <pre id="code-highlight" class="language-javascript"><code></code></pre>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/components/themeToggle.js"></script>
+
+    <!-- Third-party library JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-css.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-markup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-typescript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+</body>

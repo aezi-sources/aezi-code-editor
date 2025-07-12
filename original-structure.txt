@@ -1,0 +1,26 @@
+aezi-code-editor/
+├── index.html
+├── css/
+│   ├── main.css
+│   ├── editor.css
+│   └── themes/
+│       ├── dark.css
+│       └── light.css
+├── js/
+│   ├── main.js
+│   ├── editor/
+│   │   ├── text-editor.js
+│   │   ├── syntax-highlighter.js
+│   │   └── line-numbers.js
+│   ├── components/
+│   │   ├── file-manager.js
+│   │   ├── toolbar.js
+│   │   └── status-bar.js
+│   └── utils/
+│       ├── file-utils.js
+│       └── keyboard-shortcuts.js
+├── assets/
+│   ├── icons/
+│   └── fonts/
+└── lib/
+    └── (third-party libraries if needed)
